@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  padding: 20px;
+  height: max-content;
+  width: 26%;
+  margin: 100px auto;
+  /* border: 1px solid black; */
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logo {
+  margin: auto;
+  padding: 1px;
+}
+.logo img {
+  width: 250px;
+  height: 198px;
+}
+.text {
+  width: auto;
+  margin: 5px;
+  padding: 10px;
+}
+.buttons {
+  margin: 5px;
+  padding: 5px;
+}
+.buttons button {
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-bottom: 3px solid #e70b89;
+  margin: 5px 0px;
+  padding: 10px 70px;
+}
+.textAreaLogin {
+  transition: 05 ease;
+  /* display: none; */
+  text-align: center;
+}
+.textAreaLogin input {
+  border: 1px solid #1a1a1a;
+  width: 80%;
+  height: 30px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 26px;
+  padding: 5px 10px;
+}
+.textAreaSignup {
+  /* display: none; */
+  text-align: center;
+}
+.textAreaSignup input {
+  border: 1px solid #1a1a1a;
+  width: 80%;
+  height: 30px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 26px;
+  padding: 5px 10px;
+}
+.forget {
+  /* display: none; */
+  text-align: center;
+}
+.forget input {
+  border: 1px solid #1a1a1a;
+  width: 80%;
+  height: 30px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 26px;
+  padding: 5px 10px;
+}
+.actionBtn {
+}
+.actionBtn button {
+  margin: auto;
+  width: 87%;
+  height: 50px;
+  background: #e70b89 0% 0% no-repeat padding-box;
+  border-radius: 26px;
+  border: none;
+  opacity: 1;
+  color: white;
+  font-size: 16px;
+}
+.forget {
+  text-align: right;
+  margin: auto;
+  width: 80%;
+  padding: 18px;
+}
+.forget a {
+  text-decoration: none;
+  color: #e70b89;
+}
+.divider {
+  margin: auto;
+  text-align: center;
+  color: #9d9d9d;
+  padding: 24px 10px;
+}
+.logoButton {
+  /* margin: auto; */
+  /* padding: 5px; */
+}
+.logoButton a {
+  color: #1a1a1a;
+  padding: 16px 0px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  opacity: 1;
+  margin: 10px;
+}
+.logoButton a i {
+  top: 739px;
+  left: 115px;
+  width: 50px;
+  height: 50px;
+}
+.bottomText {
+}
+.bottomText p {
+  font-size: 12px;
+  margin: 20px;
+}
+.bottomText p a {
+  text-decoration: none;
+  color: #e70b89;
+}
+/* .buttons .signup{
+    border-bottom: none;
+} */
